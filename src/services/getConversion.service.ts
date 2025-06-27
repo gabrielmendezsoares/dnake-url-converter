@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import momentTimezone from 'moment-timezone';
 import { HttpClientUtil } from '../../expressium/src/index.js';
-import { IResponse, IResponseData } from '../interfaces/index.js';
+import { IResponse, IResponseData } from './interfaces/index.js';
 
 export const getConversion = async (
   req: Request, 
